@@ -134,7 +134,7 @@ Recipe App — это современное веб-приложение для 
 - `npm run build` — сборка проекта для production
 - `npm run preview` — предпросмотр production-сборки
 - `npm run lint` — линтинг кода
-- `npm run server` — запуск json-server (локального API)
+- ` json-server --watch db.json --port {номер}` — запуск json-server (локального API)
 
 ---
 
