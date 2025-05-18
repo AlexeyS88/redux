@@ -1,0 +1,29 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Apple Frangipan Tart",
+      "image": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Apple & Blackberry Crumble",
+      "image": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Apam balik",
+      "image": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg"
+    },
+    {
+      "name": "Pankace",
+      "image": "https://tint.creativemarket.com/ba-zMEmMBxKvcP8oos2o8i0M3qabzbBYEY4kXgFWcD0/width:1820/height:1215/gravity:nowe/rt:fill-down/el:1/preset:cm_watermark_retina/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzY5NS82OTU2LzY5NTY0NDkvbGV4dWZ2eDJzOWZtOHB1N3duZXdrcWlleXFndzI1YWV5MDR6dG9wdnRya2V2bG9kZGZ1ejl0OWMwcHV2eGwxdC1vLmpwZw",
+      "id": 5
+    },
+    {
+      "name": "Каша овсяная",
+      "image": "https://api.crm.p-group.ru/upload/images/1690818531254df93220c84d22fc284abdf15e25b4bde.webp",
+      "id": 6
+    }
+  ]
+}

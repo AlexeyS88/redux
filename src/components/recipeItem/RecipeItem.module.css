@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    max-width: 340px; /* карточка не будет шире 340px */
+    width: 100%;      /* карточка займет всю доступную ширину ячейки */
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0 auto; /* убери доп. вертикальные отступы, они уже задаются через gap в grid */
+    padding: 16px 0; /* можно чуть увеличить паддинг для красоты */
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: peru;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-in-out;
+    &:hover {
+        background-color: chocolate;
+        box-shadow: 4px 4px 8px white;
+    }
+    &&:last-of-type {
+        background-color: red;
+        &&:hover {
+            background-color: darkred;
+        }
+}
+}
+.image {
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 12px;
+}

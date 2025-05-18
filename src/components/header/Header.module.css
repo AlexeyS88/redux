@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    background-color: blueviolet;
+    margin: 8px auto;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+
+    && span {
+        position: relative;
+        left: -20px;
+        bottom: -16px;
+        margin-left: 6px;
+        font-size: 12px;
+        background-color: darkcyan;
+        font-weight: bold;
+        border-radius: 50%;
+        padding: 2px 8px;
+    }
+}
+
+.icon {
+    font-size: 40px;
+    color: pink;
+}
+
+.favoriteIcon {
+    margin-right: 6px;
+    vertical-align: middle;
+    color: pink
+}
+
+.favoritesList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.favoritesItem {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 1.4;
+}
