@@ -1,0 +1,17 @@
+.search {
+    margin: 18px auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.btn {
+    background-color: blue !important;
+    margin: 0 !important;
+}
+
+.input {
+    margin: 0 !important;
+}

@@ -3,8 +3,11 @@ import {IRecipe, IRecipeData} from "../../types/recipe.type";
 
 export const recipeApi = api.injectEndpoints({
     endpoints: (builder) => ({
-        getRecipes: builder.query<IRecipe[], void>({
-            query: () => '/recipes?_sort=id&_order=desc',
+        getRecipes: builder.query<IRecipe[], string | void>({
+            query: (search = '') => ({
+                url: '/recipes?_sort=id&_order=desc',
+                params: search ? { q: search } : {},
+            }),
             providesTags: [{type: 'Recipe'}],
         }),
         addRecipe: builder.mutation<void, IRecipeData>({
